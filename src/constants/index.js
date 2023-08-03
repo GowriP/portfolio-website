@@ -8,21 +8,18 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    efi,
+    getskinhelp,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    angular,
+    python
   } from "../assets";
   
   export const navLinks = [
@@ -77,12 +74,16 @@ import {
       icon: typescript,
     },
     {
+      name: "Angular",
+      icon: angular,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
@@ -97,10 +98,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -108,63 +105,43 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Assoiciate Software Developer",
+      company_name: "Electronics For Imaging",
+      icon: efi,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2017 - April 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Awarded the Fiery Most Valuable Sprinter (MVS) award for the third quarter of 2018 for contributions to project backlog clearing and accelerated application delivery",
+        "Researched and developed an innovative Python automation method for application and printer compatibility, resulting in a 55-hour reduction in manpower and $0.3M cost savings",
       ],
-    },
+      },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Developer",
+      company_name: "Electronics For Imaging",
+      icon: efi,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2019 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gathered project requirements and introduced new features as the engineering lead; ensured timely project delivery and boosting the NPS score by 30",
+        "Increased customer engagement by 43% through data-driven research, optimizing application interface for improved customer satisfaction and retention", 
+        "As Scrum Master, coordinated tasks for a team of 15, partnering with the Product Manager to remove impediments and achieve a 27% increase in productivity and overall team collaboration",
+      ],
+    },
+    {
+      title: "Associate Product Manager",
+      company_name: "Skinopathy",
+      icon: getskinhelp,
+      iconBg: "#000000",
+      date: "May 2022 - July 2022",
+      points: [
+        "Recruited by the Cofounder as the Product Manager of a D2C native mobile application specializing in AI-powered screening, triaging, and detection of various skin conditions",
+        "Led a team of 7 software developers and UX/UI designers in developing the application, empowering over 500 patients, and facilitating their consultations with medical professionals",
+        "Incorporated a chatbot to offer emotional support to patients after the detection screen to enhance the overall customer experience of the app resulting in a 38% reduction in churn rate",
       ],
     },
   ];
