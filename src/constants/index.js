@@ -175,7 +175,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bank Modern App",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -184,19 +184,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GowriP/bank_modern_app",
     },
     {
-      name: "Job IT",
+      name: "Gerich Resturant Application",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -205,28 +201,28 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GowriP/gerich_restaurant_application",
     },
     {
-      name: "Trip Guide",
+      name: "React Website - GPT3",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -235,7 +231,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/GowriP/react_website_gpt3",
     },
   ];
   

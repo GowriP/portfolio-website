@@ -5,14 +5,14 @@ import CanvasLoader from '../Loader';
 
 const Earth = () => {
 
-  const earth = useGLTF('./world_earth/scene.gltf')
+  const earth = useGLTF('./planet/scene.gltf')
 
   return (
     <mesh>
     <hemisphereLight intensity={5} angle={0.12} rotation={[-0.01, -0.2, -0.01]} groundColor='black' />
     <primitive 
       object={earth.scene} 
-      scale={7.5}
+      scale={2.5}
       position-y={0}
       rotation-y={0}/>
     </mesh>
