@@ -23,9 +23,11 @@ import python from "./tech/python.png";
 import efi from "./company/efi.png";
 import getskinhelp from "./company/getskinhelp.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ecommerceadmin from "./ecommerceadmin.png";
+import ecommercestore from "./ecommercestore.png";
+import gpt3 from "./gpt3.png";
+import gerichtapp from "./gerichtapp.png";
+import bankapp from "./bankapp.png";
 
 export {
   logo,
@@ -50,7 +52,9 @@ export {
   python,
   efi,
   getskinhelp,
-  carrent,
-  jobit,
-  tripguide,
+  ecommerceadmin,
+  ecommercestore,
+  gpt3,
+  gerichtapp,
+  bankapp
 };
